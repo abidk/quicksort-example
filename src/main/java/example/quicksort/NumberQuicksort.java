@@ -8,7 +8,7 @@ import java.util.List;
  * https://en.wikipedia.org/wiki/Quicksort#Simple_version
  * 
  */
-public class NumberQuicksort implements Sortable<List<Integer>> {
+public class NumberQuicksort implements Sortable<Integer> {
 
   public List<Integer> sort(List<Integer> numbers) {
     if (numbers.size() <= 1) {

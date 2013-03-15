@@ -1,7 +1,9 @@
 package example.quicksort;
 
+import java.util.List;
+
 public interface Sortable<T> {
 
-  public T sort(T items);
+  public List<T> sort(List<T> items);
 
 }
